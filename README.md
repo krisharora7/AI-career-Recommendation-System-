@@ -2,6 +2,7 @@
 # CareerMind.AI — AI Career Recommendation System
 
 **AI-powered career guidance tool with resume analysis, manual entry, and real-time chatbot — built with Streamlit & Groq LLaMA-3.**
+site - https://careermind-ai.streamlit.app/
 
 ## 🚀 Features
 - 📄 **Resume-Based Career Prediction** — Upload PDF or TXT resume for AI suggestions.
