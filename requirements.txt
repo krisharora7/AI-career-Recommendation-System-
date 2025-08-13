@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+requests
+PyPDF2
+numpy
+pandas
+joblib
