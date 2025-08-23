@@ -11,7 +11,7 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="CareerMind.AI", layout="centered", page_icon="🧠")
 
 # ----------------- Groq Config (same as before) -----------------
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama3-70b-8192"
 
@@ -470,3 +470,4 @@ if st.session_state.last_prediction:
 # ----------------- Footer / tips -----------------
 st.markdown("---")
 st.markdown("Tip: For voice input use Chrome/Edge desktop. For persistent account-backed history, integrate a user DB (recommended for production).")
+
