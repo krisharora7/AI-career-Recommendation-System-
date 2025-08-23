@@ -2,7 +2,7 @@ import os
 import requests
 
 # Set your Groq API key here or via environment variable
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # LLaMA-3 model is best supported by Groq
@@ -38,3 +38,4 @@ def ask_bot(user_message: str) -> str:
         return f"❌ Connection error: {req_err}"
     except Exception as e:
         return f"⚠️ Unexpected error: {e}"
+
