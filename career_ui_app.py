@@ -13,7 +13,7 @@ st.set_page_config(page_title="CareerMind.AI", layout="centered", page_icon="ðŸ§
 # ----------------- Groq Config (same as before) -----------------
 GROQ_API_KEY = "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"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama3-70b-8192"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # ----------------- Basic Credentials (change as needed) -----------------
 # NOTE: replace with proper auth for production. This is minimal local auth.
@@ -470,5 +470,6 @@ if st.session_state.last_prediction:
 # ----------------- Footer / tips -----------------
 st.markdown("---")
 st.markdown("Tip: For voice input use Chrome/Edge desktop. For persistent account-backed history, integrate a user DB (recommended for production).")
+
 
 
